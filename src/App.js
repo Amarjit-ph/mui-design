@@ -32,7 +32,7 @@ function App() {
           </Container>
         </div>
         <div>
-          <Grid container spacing={4} justify="center" className={classes.cardGrid}>
+          <Grid container spacing={2} justify="center" className={classes.cardGrid}>
             {cards.map((card)=>(
                 <Grid item key={card}>
               <Card className={classes.card}>
